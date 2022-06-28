@@ -232,13 +232,14 @@ li {
     margin: 8px;
     margin-bottom: 0px;
     text-align: center;
-    align-content: center;
-    justify-content: space-between;
-    flex-flow: column wrap;
+    align-items: start;
+    justify-content: center;
+    flex-flow: row wrap;
     z-index: 5;
     display: flex;
     position: inherit;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    backdrop-filter: blur(3px);
     margin-top: 0px;
 }
 .a3 {
@@ -257,8 +258,9 @@ li {
 .rows {
     display: flex;
     justify-content: space-between;
-    flex-flow: column wrap;
 }
 .divrows {
     display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
 }
